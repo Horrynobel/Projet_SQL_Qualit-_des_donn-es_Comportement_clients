@@ -88,21 +88,11 @@ Cette requête retourne les clients qui répondent à deux critères :
 - Sous-requête avec `GROUP BY` et `HAVING SUM(pu.Qty) > 50` pour filtrer les clients à **fort volume d’achat**. [file:7]  
 - Identification des clients les plus **engagés** ou **fidèles** en termes de couverture de gamme et de quantité. [file:7]  
 
-**Où et quand l’utiliser :**
-
-- Segmentation marketing pour cibler les **meilleurs clients** (ex. programmes VIP, cross-sell, up-sell). [file:7]  
-- Analyse de **couverture produit** : quels clients achètent l’ensemble du catalogue. [file:7]  
-- Détection de clients stratégiques à forte valeur pour la **relation commerciale**. [file:7]  
-
----
-
 ## Fichiers de sortie
 
 - `Q1-output-query.csv` : résultat de la requête Q1 (écarts commandes vs factures par client). [file:1]  
 - `Q2-output-2.csv` : résultat du contrôle sur la facture mise à jour pour le client 1060. [file:4]  
 - `Q4-output.csv` : liste des clients à plus forte perte par catégorie, prête pour une analyse ou un dashboard. [file:5]  
 - `Q5-output-5.csv` : clients SQLPlayground répondant aux critères “tous les produits + > 50 en quantité”. [file:8]  
-
-Ces fichiers permettent de réutiliser les résultats dans Excel, Power BI ou tout autre outil de reporting. [file:1][file:4][file:5][file:8]  
 
 
