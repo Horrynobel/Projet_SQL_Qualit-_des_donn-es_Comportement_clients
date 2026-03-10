@@ -1,5 +1,3 @@
-## Mini projet SQL manipulation des données
-
 # Projet SQL – Qualité des données & Comportement clients
 
 Ce projet regroupe plusieurs requêtes SQL avancées réalisées sur les bases **WideWorldImporters** et **SQLPlayground**.[file:3][file:6][file:2][file:7]  
